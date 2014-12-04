@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -41,3 +42,13 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Sublime Project Files
+
+I Truth Lie.sublime-project
+I Truth Lie.sublime-workspace
+
+#bower components
+
+bower.json
+/bower_components/
