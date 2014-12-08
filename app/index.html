@@ -2,16 +2,48 @@
 <html>
     <head>
         <title>I Truth Lie</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Yuuga Fansite">
+        <meta name="keywords" content="Yuuga, visual-kei, visual kei, vkei, jrock, DEViL KiTTY, Kar'maria, Deadly Sanctuary, GOKIBURI, Chateau La Tour, kote-kei, Japan, Japanese Rock, Music, Rock, Punk Rock, Metal-core, Death-core">
+        <meta name="author" content="Nicholas Miloscia">
+        <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
     </head>
     <body ng-app="iTruthLie.angular">
-        <!-- bower:js -->
+        <nav ng-controller="NavController">
+            <div class="navbar navbar-default" role="navigation" bs-navbar>
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Brand</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li data-match-route="/?(navbar)?"><a href="#/">Home</a></li>
+                <li data-match-route="/page-one"><a href="#/page-one">Page One</a></li>
+                <li data-match-route="/page-two.*"><a href="#/page-two/sub-a">Page Two</a></li>
+              </ul>
+            </div>
+        </nav>
         <ng-view>
     	</ng-view>
+
+        <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/angular/angular.js"></script>
         <script src="../bower_components/angular-route/angular-route.js"></script>
         <script src="../bower_components/angular-resource/angular-resource.js"></script>
         <script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="../bower_components/angular-animate/angular-animate.js"></script>
+        <script src="../bower_components/angular-strap/dist/angular-strap.min.js"></script>
+        <script src="../bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+        <script src="app.js"></script>
+        <script src="routes.js"></script>
+        <script src="./common/nav.controller.js"></script>
+        <script src="./home/home.controller.js"></script>
+        <script src="./devilKitty/devilKitty.controller.js"></script>
+        <script src="./chateauLaTour/chateauLaTour.controller.js"></script>
+        <script src="./deadlySanctuary/deadlySanctuary.controller.js"></script>
+        <script src="./solo/solo.controller.js"></script>
+        <script src="./karMaria/karMaria.controller.js"></script>
+        <script src="./gokiburi/gokiburi.controller.js"></script>
+        <script src="./kiga/kiga.controller.js"></script>
         <!-- endbower -->
     </body>
 </html>
