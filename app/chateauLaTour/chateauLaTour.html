@@ -6,13 +6,36 @@
                 Years Active: <small>1999~01/06/2001</small>
             </h5>
             <h5>Record Label: <small>Lucifer's Record</small></h5>
-            <p>Chateau la Tour was formed in 1999 under the Luciffer's Record label. At this time, Yuuga's (Yü-ga at this point) compositional style was very typical of many other contemporary bands, although there was still a unique flair to their music. Their songs used mostly clean vocals, often using doubling effects, and ranged from crazy and chaotic (such as "Smile" and "Schizopherenia") to sad and mournful (such as "I Wish" and "Solitude").After being an active band in the Kanto region of Japan, Chateau La Tour disbanded in on January 6th, 2001. Before their demise, the band released three singles, a full album, and made a V.A. appearance. 11 months later, Yü-ga, guitarist kiyo, and drummer Ke-to, moved on to Kar'Maria. </p>
+            <p>Chateau la Tour was formed in 1999 under the Luciffer's Record label. At this time, Yuuga's (Yü-ga at this point) compositional style was very typical of many other contemporary bands, although there was still a unique flair to their music. Their songs used mostly clean vocals, often using doubling effects, and ranged from crazy and chaotic (such as "Smile" and "Schizopherenia") to sad and mournful (such as "I Wish" and "Solitude").They were predominately active in the Kanto region of Japan. Chateau La Tour then disbanded in on January 6th, 2001, just shy of two years of activity. Before their demise, the band released three singles, a full album, and made a V.A. appearance. Like many visual-kei bands have done, their full length album consisted of mostly rereleased material, a handful of new songs, and one track that was reinterpreted for the album. 11 months after their disbandment, Yü-ga, guitarist kiyo, and drummer Ke-to, moved on to Kar'MariA. </p>
         </div>
         <div class="col-md-8"><img class="img-responsive" src="chateauLaTour/images/chat_header.png" alt="Chateau La Tour"></div>
     </div>
-	<div class="row">
-		<div style="background-color: grey;" class="col-md-6"><p>It can be assumed that Chateau La Tour started off as a three-man project based off of old tour advertisments in magazines. Originally the band had a support drummer, Kyo, and no bassist. Their first single, 「滅亡..」 (Metsubou) lists the band members as Yu-ga, Kiyo, Kyo, and Shuji; Bousou and Soretsu lists the members as being Yu-ga, Shuji, Kiyo, Kyou, and Aki; and Metem Psychosis lists the members as Yu-ga, Shuji, Kiyo, Aki, and Ke-To.  </p></div><div style="background-color:blue" class="col-md-6">hey</div>
-	</div>
+	<div class="row discography">
+        <div class="col-md-3 col-md-offset-1 discography-image">
+            <h4>Metem Psychosis</h4>
+            <img ng-src="chateauLaTour/images/discog/metem.png">
+            {{albums['metempsychosis'].albumArt}}
+            </div>
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span>
+                        Romaji
+                    </span>
+                    <span>Release Date</span>
+                    <span>Price</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['metempsychosis'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
 
     <!--
         <img src="chateaupics/yu.jpg" alt = "yuga" /> <br/>

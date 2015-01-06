@@ -5,3 +5,24 @@ h5 small{
 .jumbotron p{
     font-size: 15px;
 }
+
+/*Navigation*/
+nav{
+    position:fixed;
+    width: 100%;
+    z-index:500;
+}
+
+/*Discography*/
+.discography-info{
+    height: 30px;
+}
+.discography-info-content{
+    float: right;
+}
+
+.discography-titles-tracks{
+    -webkit-columns: 65px 2;
+    -moz-columns: 65px 2;
+    columns: 65px 2;
+}
