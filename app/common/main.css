@@ -11,16 +11,26 @@ nav{
     position:fixed;
     width: 100%;
     z-index:500;
+    top: 0px;
 }
 
 /*Discography*/
 .discography-info{
     height: 30px;
 }
+.discography-image-art{
+    width: 250px;
+    height: 250px;
+}
 .discography-info-content{
     float: right;
 }
-
+.romaji{
+    font-style: italic;
+}
+.type{
+    font-weight: 500;
+}
 .discography-titles-tracks{
     -webkit-columns: 65px 2;
     -moz-columns: 65px 2;
