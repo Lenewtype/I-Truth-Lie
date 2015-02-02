@@ -1,0 +1,9 @@
+@media(max-width: 765px){
+    nav{
+        position: relative;
+    }
+    ng-view{
+        position: relative;
+        top: -20px;
+    }
+}

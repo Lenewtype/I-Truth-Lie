@@ -45,7 +45,7 @@ angular.module('iTruthLie.angular.chateauLaTour')
             type: 'Omnibus',
             price: '¥1,260',
             date: '12/21/2000',
-            tracks: [{title: '雪の傷痕･･', romaji: 'Yuki no Kizuato'}, {title:'test'}],
+            tracks: [{title: '雪の傷痕･･', romaji: 'Yuki no Kizuato･･'}],
             albumArt: 'invasion.jpg'
         };
 	});
