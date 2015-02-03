@@ -6,4 +6,13 @@
         position: relative;
         top: -20px;
     }
+    .jumbotron .img-responsive{
+        padding-top: 0px;
+    }
+    .navbar a{
+        margin-left: 15px;
+    }
+    .navbar-default .navbar-brand{
+        margin-left: 0px;
+    }
 }

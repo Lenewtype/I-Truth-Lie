@@ -37,6 +37,9 @@ nav{
     color: white;
     border-width: 0px;
 }
+.navbar-default .navbar-brand:focus{
+    color: white;
+}
 .navbar-default .navbar-nav > li > a{
     color: white;
 }
@@ -54,6 +57,9 @@ nav{
 }
 .container-fluid .jumbotron{
     border-radius: 0px;
+}
+.jumbotron .img-responsive{
+    padding-top: 20px;
 }
 /*Table*/
 .table{
@@ -86,6 +92,8 @@ nav{
 }
 .discography-info-content{
     float: right;
+    padding: 3px 15px 3px 108px;
+    background-color: #34488D;
 }
 .romaji{
     font-style: italic;
