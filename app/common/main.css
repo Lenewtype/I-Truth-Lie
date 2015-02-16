@@ -2,6 +2,7 @@ body{
     background-color: #4d61a6;
     color: #fff;
     font-weight: 300;
+    font-family: 'Oxygen', 'Helvetica Neue', sans-serif;
 }
 /*Typography*/
 h5 small{
@@ -27,6 +28,9 @@ nav{
     z-index:500;
     top: 0px;
 }
+.navbar-brand{
+    font-family: 'Waiting for the Sunrise', cursive;
+}
 .navbar{
     border-radius: 0px;
     background-color: #34488D;
@@ -49,6 +53,14 @@ nav{
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
     background-color: #4d61a6;
     color: #ff7c7c;
+}
+/*Footer*/
+footer{
+    width: 100%;
+    background-color: #34488D;
+    text-align: center;
+    font-size: 10px;
+    padding: 4px;
 }
 /*Jumbotron*/
 .jumbotron{
@@ -92,7 +104,9 @@ nav{
 }
 .discography-info-content{
     float: right;
-    padding: 3px 15px 3px 108px;
+    text-align: right;
+    width: 390px;
+    padding: 3px 5px 3px 0px;
     background-color: #34488D;
 }
 .romaji{
@@ -115,5 +129,17 @@ nav{
 /*Misc*/
 .row h3, h3{
     margin-left: 14px;
+    color: #ff7c7c;
+}
+.row h4{
+    margin-left: 28px;
+}
+a{
+    color: #ff7c7c;
+}
+a:hover{
+    color: #FC9595;
+}
+a:visited{
     color: #ff7c7c;
 }

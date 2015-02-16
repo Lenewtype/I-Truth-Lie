@@ -1,3 +1,8 @@
+@media(max-width: 990px){
+    .img-responsive{
+        margin: 0 auto;
+    }
+}
 @media(max-width: 765px){
     nav{
         position: relative;
@@ -14,5 +19,15 @@
     }
     .navbar-default .navbar-brand{
         margin-left: 0px;
+    }
+    
+}
+@media(max-width: 600px){
+    .discography-info-content{
+        width: 130%;
+        font-size:12px;
+    }
+    .discography{
+        font-size: 12px;
     }
 }

@@ -1,1 +1,222 @@
-<h3>Kar'MariA</h3>
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-md-4">
+            <h2>Kar'MariA</h2>
+            <h5>
+                Years Active: <small>03?/xx/2001~11/25/2001</small>
+            </h5>
+            <h5>Record Label: <small>Eternal</small></h5>
+            <h5>Kana: <small>カルマリア</small></h5>
+            <p>Kar'MariA was Yuuga's only project to be signed to the famous visual-indies label Matina, specifically its sub-label Eternal (ran by Yayoi who would later join him in Deadly Sanctuary). The band formed at some point in March of 2001: an official start date for the band's activities is unknown. Kar'Maria, like Chateau La Tour, had a more typcial kote-kei (or old school styled) sound which mixed punk rock with both gothic and post-punk influences, making them similar to other contemporary bands of the time. However, that is not to imply that this band was a generic Matina band, a label which often receives criticism for following the policy of "quantity over quality." With that being said, many compositional idiosyncracies and hallmarks that can be found in later works of Yuuga originated here, as a few themes and entire songs, in some cases, were later repurposed.</p>
+
+            <p>Just like many bands signed to Matina, Kar'MariA did not last long at all: as stated above, they were first signed in March of 2001 and then broke up on November 25th of that same year. Because of this, the band did not put out a prolific amount of material: one mini-album, one single, a couple V.A. appearances, and two live-distributed singles. Even with the short lifespan, the band did see a few member swaps: for example, Kar'MariA was a 4-piece band for the release of their single "Maria." It is safe to assume that this unsteady lineup played a big part in their decision to disband.</p>
+        </div>
+        <div class="col-md-8">
+            <img class="img-responsive" src="karMaria/images/KarMariA.jpg" alt="Kar'MariA">
+            <img class="img-responsive" src="karMaria/images/KarMariA+mariagroup.jpg" alt="Kar'MariA">
+        </div>
+    </div>
+    <h3>Members</h3>
+    <div class="row members">
+        <table class="table">
+            <tr>
+                <td>Vocals</td>
+                <td>優雅</td>
+                <td class="romaji">(→Diana（support keyboard）→Celestier→Chateau La tour (Yü-ga → Yu-ga) → Kar'MariA → DEViL KiTTY / Deadly Sanctuary → THE. → GOKIBURI → GOKIBURI / Deadly)</td>
+            </tr>
+            <tr>
+                <td>Guitar</td>
+                <td>Aki</td>
+                <td class="romaji">(→Clarity→Kar’MariA→)</td>
+            </tr>
+            <tr>
+                <td>Bass</td>
+                <td>Masaya</td>
+                <td class="romaji">(→ANGEL＋DUST(MASAYA)→蜉蝣(MASAYA)→Kar'MariA→引退)</td>
+            </tr>
+            <tr>
+                <td>Drums</td>
+                <td>絢汰</td>
+                <td class="romaji">(→Chateau La tour (ke-to) → Kar'MariA → GOKIBURI (若林) / 酒血肉林)</td>
+            </tr>
+        </table>
+    </div>
+    <div class="row members">
+        <h4>Former Members</h4>
+        <table class="table">
+            <tr>
+                <td>Guitar</td>
+                <td>REI</td>
+                <td class="romaji">(→ギロチン(ZERO)→ Kar'MariA → Domestic†Child、ギミック(Support) → GHOST)</td>
+            </tr>
+            <tr>
+                <td>Guitar</td>
+                <td>葵世</td>
+                <td class="romaji">(→Tentatores Maligenii → Chateau La tour (kiyo) → Kar'MariA)</td>
+            </tr>
+        </table>
+    </div>
+    <h3>Discography</h3>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['maria'].name}}</h4>
+            <img class="discography-image-art" ng-src="karMaria/images/discog/{{albums['maria'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['maria'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['maria'].romaji}}
+                    </span> 
+                    <span>{{albums['maria'].date}}</span> －
+                    <span>{{albums['maria'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['maria'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['reset'].name}}</h4>
+            <img class="discography-image-art" ng-src="karMaria/images/discog/{{albums['reset'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['reset'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['reset'].romaji}}
+                    </span> 
+                    <span>{{albums['reset'].date}}</span> －
+                    <span>{{albums['reset'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['reset'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['reset2'].name}}</h4>
+            <img class="discography-image-art" ng-src="karMaria/images/discog/{{albums['reset2'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['reset2'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['reset2'].romaji}}
+                    </span> 
+                    <span>{{albums['reset2'].date}}</span> －
+                    <span>{{albums['reset2'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['reset2'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['untitled'].name}}</h4>
+            <img class="discography-image-art" ng-src="karMaria/images/discog/{{albums['untitled'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['untitled'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['untitled'].romaji}}
+                    </span> 
+                    <span>{{albums['untitled'].date}}</span> －
+                    <span>{{albums['untitled'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['untitled'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['untitled2'].name}}</h4>
+            <img class="discography-image-art" ng-src="karMaria/images/discog/{{albums['untitled2'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['untitled2'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['untitled2'].romaji}}
+                    </span> 
+                    <span>{{albums['untitled2'].date}}</span> －
+                    <span>{{albums['untitled2'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['untitled2'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['kaleidoscope'].name}}</h4>
+            <img class="discography-image-art" ng-src="karMaria/images/discog/{{albums['kaleidoscope'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['kaleidoscope'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['kaleidoscope'].romaji}}
+                    </span> 
+                    <span>{{albums['kaleidoscope'].date}}</span> －
+                    <span>{{albums['kaleidoscope'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['kaleidoscope'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
