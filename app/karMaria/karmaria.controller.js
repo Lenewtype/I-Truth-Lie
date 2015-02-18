@@ -11,7 +11,7 @@ angular.module('iTruthLie.angular.karMaria')
             date: '09/26/2001',
             price: '¥1,575',
             tracks: [{title: 'Maria'}, {title:'毒舌2ちゃんねラー', romaji:'dokuzetsu 2-chan neraa'}, {title:'Karma'}],
-            albumArt: 'maria.jpg'
+            albumArt: 'karMaria/images/discog/maria.jpg'
         };
         $scope.albums['reset'] = {
             name: 'Reset',
@@ -19,7 +19,7 @@ angular.module('iTruthLie.angular.karMaria')
             date: '05/30/2001',
             price: '¥2,100',
             tracks: [{title: 'Deep Love'}, {title: 'Chain'}, {title: 'a habit'}, {title: 'I than Reset you'}, {title:'約束', romaji:'Yakusoku'}/*, {title:'「」'}*/],
-            albumArt: 'reset.jpg'
+            albumArt: 'karMaria/images/discog/reset.jpg'
         };
         $scope.albums['reset2'] = {
             name: 'Reset (Second Press)',
@@ -27,7 +27,7 @@ angular.module('iTruthLie.angular.karMaria')
             date: '09/xx/2001',
             price: '¥2,100',
             tracks: [{title: 'Deep Love'}, {title: 'Chain'}, {title: 'a habit'}, {title: 'I than Reset you'}, {title:'約束', romaji:'Yakusoku'}, {title:'「」'}],
-            albumArt: 'blank.png'
+            albumArt: 'common/blank.png'
         };
         $scope.albums['untitled'] = {
             name: '[Untitled]',
@@ -35,7 +35,7 @@ angular.module('iTruthLie.angular.karMaria')
             date: '09/24/2001',
             price: '¥0',
             tracks: [{title: 'マリア', romaji: 'MARIA'}, {title: 'さよなら妄想ちゃん', romaji: 'Sayonara Mousou-chan'}],
-            albumArt: 'blank.png'
+            albumArt: 'common/blank.png'
         };
         $scope.albums['kaleidoscope'] = {
             name: 'Kaleidoscope',
@@ -43,7 +43,7 @@ angular.module('iTruthLie.angular.karMaria')
             date: '06/01/2003',
             price: '¥??',
             tracks: [{title: '約束', romaji: 'Yakusoku'}],
-            albumArt: 'kaleidoscope.png'
+            albumArt: 'karMaria/images/discog/kaleidoscope.png'
         };
         $scope.albums['untitled2'] = {
             name: '[Untitled]',
@@ -51,6 +51,6 @@ angular.module('iTruthLie.angular.karMaria')
             date: '09/25/2001',
             price: '¥0',
             tracks: [{title: 'あきの曲だゴルァ!!', romaji: 'Aki no Kyoku da GORUa!!'}, {title: 'バラードだゴルァ!!', romaji: 'BALLAD da GORUa!!'}],
-            albumArt: '11_24.png'
+            albumArt: 'karMaria/images/discog/11_24.png'
         };
 	});
