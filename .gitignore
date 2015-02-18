@@ -53,3 +53,5 @@ iTruthLie.sublime-workspace
 #bower components
 
 bower.json
+bower/components
+server/

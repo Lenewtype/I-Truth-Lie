@@ -28,6 +28,9 @@ nav{
     z-index:500;
     top: 0px;
 }
+li{
+    list-style-type: none;
+}
 .navbar-brand{
     font-family: 'Waiting for the Sunrise', cursive;
 }
