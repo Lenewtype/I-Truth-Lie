@@ -10,6 +10,7 @@
 	angular.module( 'iTruthLie.angular.deadlySanctuary', []);
 	angular.module( 'iTruthLie.angular.kiga', []);
 	angular.module( 'iTruthLie.angular.early', []);
+	angular.module( 'iTruthLie.angular.about', []);
 	angular.module('iTruthLie.angular', [
 
 		'ngRoute',
@@ -25,6 +26,7 @@
 		'iTruthLie.angular.deadlySanctuary',
 		'iTruthLie.angular.kiga',
 		'iTruthLie.angular.early', 
+		'iTruthLie.angular.about',
 		'iTruthLie.angular'
 	]).run(function($log){
 		$log.log('Loaded');

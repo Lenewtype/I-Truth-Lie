@@ -27,6 +27,9 @@ angular.module('iTruthLie.angular').config(function($routeProvider) {
     }).when('/early',{
         templateUrl: 'early/early.html',
         controller: 'EarlyController'
+    }).when('/about',{
+        templateUrl: 'about/about.html',
+        controller: 'AboutController'
     })
     .otherwise({
         redirectTo: '/'
