@@ -1,1 +1,58 @@
-<h3>Ki=/=ga</h3>
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-md-12">
+            <h2>希≠雅 </h2>
+            <h5>
+                Years Active: <small>2003</small>
+            </h5>
+            <h5>Record Label: <small>??</small></h5>
+            <h5>Kana: <small>ｷｶﾞ</small></h5>
+      		<p>希≠雅 (pronounced "Ki-ga") is a small project made by both Yuuga and KISUI. The project never released anything more than a single mini-album and probably was not around for a very long time.</p>
+         	<p>The band's name is a compound of both member's stage names: the first kanji, '希,' is pronounced "ki," (from KISUI's name) and the second, '雅,' is the "ga" from Yuuga's name. In spite of this naming convention,  the band's music is highly <em>unconventional</em> for both members. For example, many of the songs on the mini-album they released fall under the hip-hop genre.</p>
+        </div>
+    </div>
+    <h3>Members</h3>
+    <div class="row members">
+        <table class="table">
+            <tr>
+                <td>Vocals</td>
+                <td>KISUI</td>
+                <td class="romaji">
+                (→ LAPSE → CANDY → Phobia →希≠雅 → 6R)
+                </td>
+            </tr>
+            <tr>
+                <td>Programming</td>
+                <td>優雅</td>
+                <td class="romaji">(→Diana （support keyboard） → Celestier → Chateau La tour (Yü-ga → Yu-ga) → Kar'MariA → DEViL KiTTY / Deadly Sanctuary → THE. → GOKIBURI → GOKIBURI / Deadly)</td>
+            </tr>
+        </table>
+    </div>
+     <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['album'].name}}</h4>
+            <img class="discography-image-art" ng-src="{{albums['album'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['album'].type}}
+                    </span> 
+                    <span class="romaji">
+                        {{albums['album'].romaji}}
+                    </span> －
+                    <span>{{albums['album'].date}}</span> 
+                    <span>{{albums['album'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['album'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>

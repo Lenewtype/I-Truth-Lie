@@ -1,1 +1,158 @@
-<h3>Solo</h3>
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-md-4">
+            <h2>優雅</h2>
+            <h5>
+                Years Active: <small>2005~2006</small>
+            </h5>
+            <h5>Record Label: <small>Luciffer's Record</small></h5>
+            <h5>Kana: <small>ユウガ</small></h5>
+            <p><p>After the dissolution of DEViL KiTTY, Yuuga went on to create a small solo project. Unfornutately, very little is known about this project and very few people are even aware that this project exists. Ironically enough, his solo work have proven to be one of the most fruitful out of all of his bands. Although an official start date cannot easily be found on the internet, it can be assumed that this project took off sometime in 2004 and quietly came to an end in 2005 or 6.</p>
+
+           <p>優雅 started off as a means of re-releasing old material. The first album, ［5years trace for・・・］, is predominatenly remakes of songs from Chateau La Tour, Kar'Maria, and DEViL KiTTY. The rest of the releases were more or less new material.</p>
+
+            <p>While I personally have not seen many of his solo CDs in person, the one I do own does not credit any studio members assisting in recording. The only mention of thanks goes to Yayoi, and all lyrics and music was created by Yuuga himself.</p>
+
+            <p>While many of his CDs were limited editions, many of them were again out for distribution in 2013~2014 during live performances of GOKIBURI.</p>
+        </div>
+        <div class="col-md-8">
+            <img class="img-responsive" src="solo/images/FAKESTAR3.jpg" alt="Yuuga">
+        </div>
+    </div>
+    <h3>Discography</h3>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['akunari'].name}}</h4>
+            <img class="discography-image-art" ng-src="{{albums['akunari'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['akunari'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['akunari'].romaji}}
+                    </span> －
+                    <span>{{albums['akunari'].date}}</span> －
+                    <span>{{albums['akunari'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['akunari'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['5years'].name}}</h4>
+            <img class="discography-image-art" ng-src="{{albums['5years'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['5years'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['5years'].romaji}}
+                    </span> 
+                    <span>{{albums['5years'].date}}</span> 
+                    <span>{{albums['5years'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['5years'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['dazzling'].name}}</h4>
+            <img class="discography-image-art" ng-src="{{albums['dazzling'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['dazzling'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['dazzling'].romaji}}
+                    </span> 
+                    <span>{{albums['dazzling'].date}}</span> －
+                    <span>{{albums['dazzling'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['dazzling'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['death'].name}}</h4>
+            <img class="discography-image-art" ng-src="{{albums['death'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['death'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['death'].romaji}}
+                    </span> －
+                    <span>{{albums['death'].date}}</span> 
+                    <span>{{albums['death'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['death'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="row discography">
+        <div class="col-md-3  discography-image">
+            <h4>{{albums['blackjack'].name}}</h4>
+            <img class="discography-image-art" ng-src="{{albums['blackjack'].albumArt}}">
+        </div>
+        <div class="col-md-7 discography-text">
+            <div class="discography-info">
+                <div class="discography-info-content">
+                    <span class="type">
+                        {{albums['blackjack'].type}}
+                    </span> －
+                    <span class="romaji">
+                        {{albums['blackjack'].romaji}}
+                    </span> －
+                    <span>{{albums['blackjack'].date}}</span> 
+                    <span>{{albums['blackjack'].price}}</span>
+                </div>
+            </div>
+            <div class="discograpy-titles">
+                <ol class="discography-titles-tracks">
+                    <li ng-repeat="track in albums['blackjack'].tracks">
+                        {{$index+1}}.) {{track.title}} <span class="romaji" ng-if="track.romaji">({{track.romaji}})</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>

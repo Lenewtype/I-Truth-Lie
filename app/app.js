@@ -9,6 +9,7 @@
 	angular.module( 'iTruthLie.angular.solo', []);
 	angular.module( 'iTruthLie.angular.deadlySanctuary', []);
 	angular.module( 'iTruthLie.angular.kiga', []);
+	angular.module( 'iTruthLie.angular.early', []);
 	angular.module('iTruthLie.angular', [
 
 		'ngRoute',
@@ -22,7 +23,8 @@
 		'iTruthLie.angular.karMaria',
 		'iTruthLie.angular.solo',
 		'iTruthLie.angular.deadlySanctuary',
-		'iTruthLie.angular.kiga', 
+		'iTruthLie.angular.kiga',
+		'iTruthLie.angular.early', 
 		'iTruthLie.angular'
 	]).run(function($log){
 		$log.log('Loaded');
