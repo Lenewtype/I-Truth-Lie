@@ -13,7 +13,7 @@ angular.module('iTruthLie.angular').config(function($routeProvider) {
         templateUrl: 'chateauLaTour/chateauLaTour.html',
         controller: 'ChateauLaTourController'
     }).when('/karMaria',{
-        templateUrl: 'karMaria/karMaria.html',
+        templateUrl: 'karMaria/karmaria.html',
         controller: 'KarMariaController'
     }).when('/deadlySanctuary',{
         templateUrl: 'deadlySanctuary/deadlySanctuary.html',
